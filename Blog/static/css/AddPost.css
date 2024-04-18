@@ -1,0 +1,58 @@
+
+  .btn-danger {
+    background: #ee3e3e;
+    color: var(--white);
+    padding: 0.6875rem 1.1875rem;
+  }
+
+  
+    .newsletter {
+      position: sticky;
+      top: 3rem;
+      margin-bottom: 98px;
+    }
+
+    .newsletter .blog-text { 
+      display: block !important;
+     }
+    
+  
+    .newsletter p {
+      color: var(--foreground-secondary);
+      font-weight: 600;
+  
+    }
+  
+    .newsletter input , .newsletter select, .newsletter textarea {
+      border: none;
+      background: var(--action-primary);
+      display: block;
+      width: 90%;
+      padding: 0.5rem 1rem;
+      font: inherit;
+      color: var(--foreground-secondary);
+      border-radius: 5px;
+      margin-bottom: 1rem;
+    }
+    
+    
+  
+    .newsletter input:focus , .newsletter textarea:focus ,.newsletter select:focus {
+      outline: 2px solid;
+      outline-offset: 0;
+      
+    }
+  
+    .newsletter .btn-primary {
+      margin-inline: auto;
+      margin: auto; 
+    }
+    .newsletter .allbtn{
+      display: flex;
+      justify-content: center;
+      padding: 50px;
+    }
+
+  
+  
+  

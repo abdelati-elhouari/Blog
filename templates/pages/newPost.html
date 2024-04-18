@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block content %} 
+
+<main>
+    <div class="main">
+
+      <div class="container">
+
+        <div class="tags">
+
+          <h2 class="h2">Tags</h2>
+
+          <div class="wrapper">
+        
+            <div class="newsletter">
+
+                <form method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <p for="topics">Select a topic:</p>
+                    <select id="topics" name="topic">
+                        <option value="Database">Database</option>
+                        <option value="Back END">Back END</option>
+                        <option value="Front End">Front End</option>
+                        <option value="Other">Other</option>
+                    </select>
+            
+                    <p class="blog-text">Title :</p>
+                    <input type="text" name="title" placeholder="" required>
+                    
+                    <p class="blog-text">Content :</p>
+                    <textarea name="content" rows="4" cols="50" required></textarea>
+
+                    <p class="blog-text">Images :</p>
+                    <input type="file" name="image" required>
+                    
+                    <div class="allbtn">
+                        <button type="reset" class="btn btn-danger">Reset</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+          </div>
+        
+        </div>
+       
+      </div>
+
+    </div>
+
+  </main>
+{% endblock %}
