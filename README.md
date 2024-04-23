@@ -18,7 +18,7 @@ This is a Django-based MVC blog application where users can create, and view blo
 
 <img src="./screenshots/home1.png" alt="drawing"   width="auto" />
 <img src="./screenshots/darkhome.png" alt="drawing"   width="auto" />
-<img src="./screenshots/mobilehome.png" alt="drawing"   width="auto" />
+<img src="./screenshots/mobileHome.png" alt="drawing"   width="auto" />
 
 * Create Post: Users can create a new blog post by clicking on the "newPost" .
 <img src="./screenshots/newPost.png" alt="drawing"   width="auto" />
